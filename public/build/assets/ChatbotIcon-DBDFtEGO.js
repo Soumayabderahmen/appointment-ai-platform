@@ -1,0 +1,1 @@
+import{_ as e,a,o as s}from"./app-xZFo10Vc.js";const n={__name:"ChatbotIcon",emits:["click"],setup(_,{emit:o}){const c=o;return(i,t)=>(s(),a("div",{class:"chatbot-icon",onClick:t[0]||(t[0]=r=>c("click"))}," 🤖 "))}},m=e(n,[["__scopeId","data-v-8ac81a2f"]]);export{m as default};

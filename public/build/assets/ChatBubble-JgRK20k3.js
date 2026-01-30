@@ -1,0 +1,1 @@
+import{_ as s,a,o as t,t as c,n as o}from"./app-xZFo10Vc.js";const n={__name:"ChatBubble",props:{message:Object},setup(e){return(r,l)=>(t(),a("div",{class:o(["chat-message",e.message.sender])},c(e.message.text),3))}},_=s(n,[["__scopeId","data-v-2e45d520"]]);export{_ as default};

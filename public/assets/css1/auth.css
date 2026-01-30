@@ -1,0 +1,252 @@
+.auth-section {
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.auth-section .left {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.auth-section .right {
+    max-height: 100vh;
+    overflow-y: auto;
+}
+.auth-section .right::-webkit-scrollbar {
+    width: 0px;
+}
+
+.auth-section .right::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.auth-section .right::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.auth-section .left .bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.auth-section .left .logo {
+    height: 112px;
+    object-fit: contain;
+    position: relative;
+    max-width: 350px;
+}
+
+.cardLogin {
+    width: 100%;
+    max-width: 550px;
+    border-radius: 40px;
+    background: #FFF;
+height: fit-content;
+    padding-top: 2rem;
+    /* Shadow blue */
+    box-shadow: 10px 8px 20px 0 rgba(0, 81, 131, 0.25);
+}
+
+.cardLogin .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cardLogin .card-header a {
+    color: var(--grey-normal-hover, #AEAEAE);
+    text-align: center;
+    /* H3/Regular */
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.2px;
+    /* 120% */
+}
+
+.cardLogin .card-header a.active {
+    color: var(--Blue-Normal, #0098F3);
+    font-weight: 700;
+}
+
+.cardLogin .card-body {
+
+    border-radius: 0 0 40px 40px;
+    background: #FFF;
+
+    /* Shadow blue */
+    box-shadow: 10px 8px 20px 0 rgba(0, 81, 131, 0.25);
+}
+
+.cardLogin .card-body .form-group {
+    display: block;
+}
+
+.cardLogin .card-body .form-label {
+    color: var(--Blue-Dark, #0072B6);
+    /* Headline / Bold */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 150% */
+}
+
+.cardLogin .card-body .form-control {
+    color: var(--Grey-Normal, #000);
+    /* Subtitle / Regular */
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px;
+    /* 120% */
+    box-shadow: none !important;
+    border-bottom: 1px solid #C1C1C1 !important;
+    border-radius: 0px !important;
+    width: 100%;
+}
+
+.cardLogin .card-body .form-control::placeholder {
+    color: var(--Grey-Normal, #C1C1C1);
+}
+
+.cardLogin .card-body .form-check {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.cardLogin .card-body .form-check label {
+    color: var(--Blue-Dark, #0072B6);
+    text-align: center;
+
+    /* Subtitle / Bold */
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15.6px;
+    /* 120% */
+}
+
+.cardLogin .card-body .form-check input {
+    width: 20px;
+    height: 20px;
+    aspect-ratio: 1/1;
+    border: 1px solid #007AD4;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.cardLogin .card-body a {
+    color: var(--Blue-Normal, #0098F3);
+    text-align: center;
+
+    /* Subtitle / Bold */
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15.6px;
+    /* 120% */
+}
+
+.cardLogin .card-body p {
+    color: var(--Grey-Dark, #919191);
+    text-align: center;
+    /* Subtitle / Bold */
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    /* 120% */
+}
+
+.cardLogin .card-body h2 {
+    color: var(--Blue-Dark, #0072B6);
+    text-align: center;
+    /* H4 / Bold */
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 120% */
+}
+
+.cardLogin .card-body .box {
+    border-radius: 20px;
+    background: #FFF;
+    /* Shadow blue */
+    box-shadow: 10px 8px 20px 0 rgba(0, 81, 131, 0.25);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.cardLogin .card-body .box img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.cardLogin .card-body .box h3 {
+    color: var(--Blue-Normal, #0098F3);
+    text-align: center;
+    /* Headline / Bold */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 150% */
+}
+
+.cardLogin .card-body .box p {
+    color: var(--grey-normal-active, #9A9A9A);
+    text-align: center;
+    /* Caption / Regular */
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.5px;
+    /* 150% */
+}
+
+@media(max-width:992px) {
+
+    .cardLogin .card-body p,
+    .cardLogin .card-body a,
+    .cardLogin .card-body .form-check label,
+    .cardLogin .card-body .form-control {
+        font-size: 12px;
+    }
+
+    .cardLogin .card-header a {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:768px) {
+    .cardLogin .card-header a {
+        font-size: 20px;
+    }
+    .auth-section .left {
+        display: none !important;
+    }
+}
